@@ -1,4 +1,9 @@
 return {
+  mappings = {
+    n = {
+      ["<leader>f"] = { "<cmd>lsp-format" },
+    },
+  },
   plugins = {
     {
       "nvimdev/lspsaga.nvim",

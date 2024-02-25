@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "74a33c6d8244b023",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b9604f63712ee93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7793d6931be11e3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Environment/command line tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76dc5b176f725c85",
+    "type": "split",
+    "children": [
+      {
+        "id": "3304e24855619879",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3565164c8921cbbc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a5adb461e3b5960c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "accd403139d4f67e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e7cf0e9520610779",
+    "type": "split",
+    "children": [
+      {
+        "id": "839c6845dbfdbfb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61c7dcfd380872ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fac03f06ee96aa5c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Environment/command line tools.md"
+              }
+            }
+          },
+          {
+            "id": "bfc43ab1e39c4af1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "ee97663a12730a4e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Environment/command line tools.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "floating": {
+    "id": "7750cd5c66ca899e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6e586c2b408793e8",
+        "type": "window",
+        "children": [
+          {
+            "id": "4c03f779ba90111b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5656839f1286b80c",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Environment/command line tools.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 5537,
+        "y": 98,
+        "width": 604,
+        "height": 603,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "5656839f1286b80c",
+  "lastOpenFiles": [
+    "Environment/command line tools.md",
+    "Environment",
+    "Welcome.md"
+  ]
+}

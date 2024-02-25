@@ -1,17 +1,15 @@
-HISTFILE=~/.cache/zsh/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-setopt autocd extendedglob
-unsetopt nomatch
 bindkey -v
-zstyle :compinstall filename ~/.zshrc
-autoload -Uz compinit
-compinit
 
-source ~/.profile
-eval "$(starship init zsh)"
-source /usr/share/nvm/init-nvm.sh
+eval "$(sheldon source)"
+
+# ohmyzsh
+export ZSH="$HOME/.local/share/sheldon/repos/github.com/ohmyzsh/ohmyzsh"
+export ZSH_COMPDUMP="$HOME/.cache/zsh"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+source ~/.dotfiles/sources/.p10k.zsh
+
+# shell agnostic user config
+source ~/.dotfiles/sources/.profile
 
 
-# Load Angular CLI autocompletion.
-source <(ng completion script)
