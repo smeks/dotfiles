@@ -1,40 +1,41 @@
-# Added by Toolbox App
+# Misc tool paths
 PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
-
-# Others
 PATH="$PATH:$HOME/.cargo/bin"
 PATH="$PATH:$HOME/.local/share/go/bin"
+PATH="/opt/cuda/bin:$PATH"
 
-# Video
-export GST_PLUGIN_FEATURE_RANK="nvmpegvideodec:MAX,nvmpeg2videodec:MAX,nvmpeg4videodec:MAX,nvh264sldec:MAX,nvh264dec:MAX,nvjpegdec:MAX,nvh265sldec:MAX,nvh265dec:MAX,nvvp9dec:MAX"
-#export MESA_GL_VERSION_OVERRIDE=3.3 
-#export MESA_GLSL_VERSION_OVERRIDE=330
 
-#export XDG_SESSION_TYPE="wayland"
-#export QT_QPA_PLATFORM="xcb"
-#export QT_WAYLAND_FORCE_DPI="120"
+# Helpful aliases
+alias  l='eza -lh  --icons=auto' # long list
+alias ls='eza -1   --icons=auto' # short list
+alias ll='eza -lha --icons=auto --sort=name --group-directories-first' # long list all
+alias ld='eza -lhD --icons=auto' # long list dirs
 
-export __NV_PRIME_RENDER_OFFLOAD=1 nvidia
-export GBM_BACKEND=nvidia-drm
 
-alias ls="exa"
-alias la="exa -a"
-alias ll="exa -l"
-alias lla="exa -la"
-alias ls="exa $param"
+# Handy change dir shortcuts
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
 
+# Always mkdir a path (this doesn't inhibit functionality to make a single dir)
+alias mkdir='mkdir -p'
+
+# Fixes "Error opening terminal: xterm-kitty" when using the default kitty term to open some programs through ssh
+alias ssh='kitten ssh'
+
+# Oxidized
 alias find="fd"
 alias grep="rg"
 alias ps="procs"
 
-alias restart_kde="plasmashell --replace > /dev/null 2>&1 & disown"
+alias ghpw="cat ~/Dev/github.txt | wl-copy"
 
-source /usr/share/nvm/init-nvm.sh
-
-
+# Compiler flags
 CFLAGS="-w -pipe"
 CXXFLAGS="-w -pipe"
 
-
-
+# Init tools
+source /usr/share/nvm/init-nvm.sh
 
