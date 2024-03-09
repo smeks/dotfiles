@@ -33,8 +33,8 @@ alias ps="procs"
 alias ghpw="cat ~/Dev/github.txt | wl-copy"
 
 # Compiler flags
-CFLAGS="-w -pipe"
-CXXFLAGS="-w -pipe"
+#CFLAGS="-w -pipe"
+#CXXFLAGS="-w -pipe"
 
 # Init tools
 source /usr/share/nvm/init-nvm.sh
