@@ -1,14 +1,19 @@
+vim.g.clipboard = {
+  name = "unnamedplus",
+  copy = {
+    ["+"] = "wl-copy",
+    ["*"] = "wl-copy",
+  },
+  paste = {
+    ["+"] = "wl-paste",
+    ["*"] = "wl-paste",
+  }
+}
+
 return {
     mappings = {n = {["<leader>f"] = {"<cmd>lsp-format"}}},
     plugins = {
-        {"mg979/vim-visual-multi", lazy = false}, {
-            "nvimdev/lspsaga.nvim",
-            lazy = false,
-            dependencies = {
-                "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons"
-            },
-            config = function() require("lspsaga").setup() end
-        }, {
+	{
             "catppuccin/nvim",
             name = "catppuccin",
             priority = 1000,
